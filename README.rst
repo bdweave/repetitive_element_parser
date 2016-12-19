@@ -13,3 +13,12 @@ patterns as output by a piece of software outlining differential expression betw
 The package then extracts repetitive element data from these expression profiles, and
 creates meaningful plots which a scientist can then use to investigate more detailed expression
 patterns related to their area of interest.
+
+The core functionality of the Repetitive Element Parser is to take a differential expression dataset,
+and return a variety of plotting options for visualization of key groups of repetitive element.
+The code is written in python3 and is very intuitive, allowing users to customize their catching of
+groups and plot functionalities. Currently, only an MA-plot functionality is available, but this will be
+added to and improved in subsequent releases.
+
+This parser is fully functional from the command line and takes a variety of optional arguments that
+specify its functionality. Check the '-h' option from the command line for more details.
