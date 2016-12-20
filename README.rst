@@ -22,3 +22,16 @@ added to and improved in subsequent releases.
 
 This parser is fully functional from the command line and takes a variety of optional arguments that
 specify its functionality. Check the '-h' option from the command line for more details.
+
+The following is an example command for plotting (ma-plots are currently the only functional plotting
+feature):
+$$/: python Repetitive_element_parser.py <excel spreadsheet file(.xlsx)> [-ma] [-sn] [--ERV/LINE/LTR/SINE]
+
+    [-ma] specifies that the user wants an MA-plot to return..default is NO MA-plot
+    [-sn] is followed by an integer value specifying the sheet index (0th index as integers as per python)..default is 0 (first sheet)
+    [--ERV/LINE/LTR/SINE] optional argument specifying what elements you wish to plot via [-ma]..default is ALL
+
+
+Please send any questions/thoughts to bradleydonweaver@gmail.com
+
+Thank you!
